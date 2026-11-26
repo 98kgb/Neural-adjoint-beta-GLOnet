@@ -2,7 +2,7 @@
 
 Code for:
 
-> G. Kim and J. Kim, "Neural-adjoint β-GLOnet: Expanding multi-objective global topology optimization framework to quantum-confined nanophotonic devices with enhanced solution diversity," *Scientific Reports* (2026). DOI: [to be added]
+> G. Kim and J. Kim, "Neural-adjoint β-GLOnet: Expanding multi-objective global topology optimization framework to quantum-confined nanophotonic devices with enhanced solution diversity," *Scientific Reports* (2026). DOI: [under revision]
 
 This repository optimizes the 24 layer thicknesses of a 4-quantum-well, 7.7 µm mid-IR QCL with a neural-adjoint β-GLOnet. A generative network is trained through a frozen, differentiable neural-network surrogate (PBTL) of the physical simulator. A β-weighted diversity term promotes structurally diverse designs. Baselines (neural-adjoint GLOnet, genetic algorithm, REINFORCE) are included and evaluated with the same solver-validated protocol.
 
